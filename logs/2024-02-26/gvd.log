@@ -1,0 +1,10 @@
+[2024-02-26 16:58:17] [31m[error][0m image_upload.go:81 github.com/Linxhhh/easy-doc/api/image_api.ImageApi.ImageUpload 图片 lk.jpg 写入数据库失败，err is Error 1292 (22007): Incorrect datetime value: '0000-00-00' for column 'createAt' at row 1
+[2024-02-26 16:59:34] [31m[error][0m image_upload.go:81 github.com/Linxhhh/easy-doc/api/image_api.ImageApi.ImageUpload 图片 lk.jpg 写入数据库失败，err is Error 1292 (22007): Incorrect datetime value: '0000-00-00' for column 'createAt' at row 1
+[2024-02-26 17:00:19] [31m[error][0m image_upload.go:81 github.com/Linxhhh/easy-doc/api/image_api.ImageApi.ImageUpload 图片 lk.jpg 写入数据库失败，err is Error 1292 (22007): Incorrect datetime value: '0000-00-00' for column 'createAt' at row 1
+[2024-02-26 21:20:11] [36m[info][0m image_remove.go:43 github.com/Linxhhh/easy-doc/api/image_api.ImageApi.ImageRemove 删除用户 uploads/C++/likou.jpg 成功
+[2024-02-26 21:20:11] [36m[info][0m image_remove.go:43 github.com/Linxhhh/easy-doc/api/image_api.ImageApi.ImageRemove 删除用户 uploads/C++/linux.png 成功
+[2024-02-26 21:21:01] [36m[info][0m image_remove.go:43 github.com/Linxhhh/easy-doc/api/image_api.ImageApi.ImageRemove 删除用户 uploads/lxh/lk.jpg 成功
+[2024-02-26 21:22:23] [36m[info][0m image_remove.go:43 github.com/Linxhhh/easy-doc/api/image_api.ImageApi.ImageRemove 删除用户 uploads/lxh/C++.jpg 成功
+[2024-02-26 21:38:14] [36m[info][0m image_remove.go:52 github.com/Linxhhh/easy-doc/api/image_api.ImageApi.ImageRemove 删除用户 uploads/lxh/likou.jpg 成功
+[2024-02-26 21:38:52] [36m[info][0m image_remove.go:52 github.com/Linxhhh/easy-doc/api/image_api.ImageApi.ImageRemove 删除用户 uploads/lxh/likou.jpg 成功
+[2024-02-26 21:46:28] [36m[info][0m image_remove.go:52 github.com/Linxhhh/easy-doc/api/image_api.ImageApi.ImageRemove 删除用户 uploads/C++/linux.png 成功

@@ -1,0 +1,2 @@
+[2024-02-27 17:46:02] [36m[info][0m role_remove.go:36 github.com/Linxhhh/easy-doc/api/role_api.RoleApi.RoleRemove 删除角色 sb1，关联用户 0 个
+[2024-02-27 17:57:36] [36m[info][0m role_remove.go:43 github.com/Linxhhh/easy-doc/api/role_api.RoleApi.RoleRemove 删除角色 sb，关联用户 1 个

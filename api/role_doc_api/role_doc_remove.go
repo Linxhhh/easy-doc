@@ -1,0 +1,32 @@
+package role_doc_api
+
+import (
+	"github.com/Linxhhh/easy-doc/models"
+	"github.com/Linxhhh/easy-doc/service/common/res"
+	"github.com/Linxhhh/easy-doc/global"
+	"github.com/gin-gonic/gin"
+)
+
+type RoleDocRomoveRequest struct {
+	RoleId uint `json:"roleId" binding:"required" label:"角色id"`
+	DocId  uint `json:"docId" binding:"required" label:"文档id"`
+}
+
+func (RoleDocApi) RoleDocRemove(ctx *gin.Context) {
+
+	var request RoleDocRomoveRequest
+	err := ctx.ShouldBindJSON(&request)
+	if err != nil {
+		res.FailWithMsg("参数错误！", ctx)
+		return
+	}
+
+	var roleDoc models.RoleDocModel
+	err = global.DB.Take(&roleDoc, "role_id = ? and doc_id = ?", request.RoleId, request.DocId).Error
+	if err != nil {
+		res.FailWithMsg("该文档不存在！", ctx)
+		return
+	}
+	global.DB.Delete(&roleDoc)
+	res.OKWithMsg("删除成功", ctx)
+}
