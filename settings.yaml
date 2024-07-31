@@ -1,0 +1,24 @@
+system:
+  ip: "127.0.0.1"      # 修改为"0.0.0.0"则开放访问
+  port: 3333
+  env: "dev"
+
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  config: charset=utf8mb4&parseTime=True&loc=Local
+  db: gvd_db
+  username: root
+  password: 123456
+  loglevel: error      # 打印什么级别的日志
+
+redis:
+  ip: 127.0.0.1
+  port: 6379
+  password: ""
+  poolSize: 100
+
+jwt:
+  expires: 8
+  issuer: "lxh"
+  serect: "uis&*jbb55dHRhf5"
